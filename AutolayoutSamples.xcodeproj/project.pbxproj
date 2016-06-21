@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D512CA781D19933200CA2BED /* FakeLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512CA771D19933200CA2BED /* FakeLoginVC.swift */; };
 		D577C31C1D1975C0008F3499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D577C31B1D1975C0008F3499 /* AppDelegate.swift */; };
 		D577C31E1D1975C0008F3499 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D577C31D1D1975C0008F3499 /* FirstViewController.swift */; };
 		D577C3201D1975C0008F3499 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D577C31F1D1975C0008F3499 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D512CA771D19933200CA2BED /* FakeLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeLoginVC.swift; sourceTree = "<group>"; };
 		D577C3181D1975C0008F3499 /* AutolayoutSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D577C31B1D1975C0008F3499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D577C31D1D1975C0008F3499 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D577C31B1D1975C0008F3499 /* AppDelegate.swift */,
 				D577C31D1D1975C0008F3499 /* FirstViewController.swift */,
 				D577C31F1D1975C0008F3499 /* SecondViewController.swift */,
+				D512CA771D19933200CA2BED /* FakeLoginVC.swift */,
 				D577C3211D1975C0008F3499 /* Main.storyboard */,
 				D577C3241D1975C0008F3499 /* Assets.xcassets */,
 				D577C3261D1975C0008F3499 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D577C3201D1975C0008F3499 /* SecondViewController.swift in Sources */,
+				D512CA781D19933200CA2BED /* FakeLoginVC.swift in Sources */,
 				D577C31C1D1975C0008F3499 /* AppDelegate.swift in Sources */,
 				D577C31E1D1975C0008F3499 /* FirstViewController.swift in Sources */,
 			);
@@ -290,6 +294,7 @@
 				D577C32E1D1975C0008F3499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
