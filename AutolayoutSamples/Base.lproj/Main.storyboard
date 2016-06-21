@@ -164,10 +164,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIb-4m-31y" userLabel="border View Bottom">
                                 <rect key="frame" x="10" y="64" width="300" height="211"/>
                                 <subviews>
-                                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Send dough to me!" translatesAutoresizingMaskIntoConstraints="NO" id="h0A-H5-JBo">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Send dough to me now!" translatesAutoresizingMaskIntoConstraints="NO" id="h0A-H5-JBo">
                                         <rect key="frame" x="8" y="6" width="283" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -179,13 +179,16 @@
                                         </constraints>
                                         <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Just do it now">
+                                        <state key="normal" title="long text">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="lengthenMessage:" destination="iT5-c3-ygB" eventType="touchUpInside" id="9bd-Il-9Xx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u04-Ge-xsO">
                                         <rect key="frame" x="10" y="153" width="281" height="50"/>
@@ -194,13 +197,16 @@
                                         </constraints>
                                         <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Never mind!">
+                                        <state key="normal" title="short text">
                                             <color key="titleColor" red="0.20392156859999999" green="0.55294117649999996" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" backgroundImage="first">
+                                        <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shortenMessage:" destination="iT5-c3-ygB" eventType="touchUpInside" id="tIg-dh-lFw"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Super secret" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zOu-zd-w35">
                                         <rect key="frame" x="8" y="43" width="283" height="50"/>
@@ -258,6 +264,9 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="MiY-0u-xxB"/>
+                    <connections>
+                        <outlet property="messageTextView" destination="h0A-H5-JBo" id="pKF-W2-9QG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYW-Ct-YhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
