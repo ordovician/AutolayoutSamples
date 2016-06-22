@@ -22,7 +22,8 @@ class FirstViewController: UIViewController {
 
     @IBOutlet var expandableTextField: UITextField!
     @IBOutlet var expandableTextView: UITextView!
-    
+    @IBOutlet var expandableLabel: UILabel!
+
     var prevShortText: String = "Short Text"
     var prevLongText: String = "Saturn orbits the moon or maybe not"
     
@@ -30,11 +31,13 @@ class FirstViewController: UIViewController {
         if sender.on {
             self.expandableTextField.text = prevShortText
             self.expandableTextView.text = prevLongText
+            self.expandableLabel.text = prevShortText
         } else {
             self.prevShortText = self.expandableTextField.text!
             self.expandableTextField.text = "The quick brown fox jumps over the lazy dog"
             self.prevLongText = self.expandableTextView.text!
             self.expandableTextView.text = prevShortText
+            self.expandableLabel.text = "The quick brown fox jumps over the lazy dog"
         }
     }
 }
