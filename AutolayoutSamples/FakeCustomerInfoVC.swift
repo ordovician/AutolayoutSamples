@@ -16,7 +16,7 @@ class FakeCustomerInfoVC: UIViewController {
     }
     
     @IBAction func lengthenMessage(sender: AnyObject) {
-        messageLabel.text = "The quick brown fox jumps over the lazy dog"
+        messageLabel.text = "The quick brown fox jumps over the lazy dog and the lazy dog crawled under the quick brown fox"
     }
     
 }
