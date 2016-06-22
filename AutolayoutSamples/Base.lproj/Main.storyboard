@@ -56,7 +56,7 @@
                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIO-pE-rBH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIO-pE-rBH">
                                 <rect key="frame" x="20" y="400" width="79" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="3r2-dJ-Vug"/>
@@ -411,7 +411,6 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="01H-jN-VHk" secondAttribute="trailing" constant="-5" id="1Ly-G1-Xiv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="01H-jN-VHk" secondAttribute="trailing" constant="-5" id="AQs-IL-LBw"/>
-                            <constraint firstItem="01H-jN-VHk" firstAttribute="top" secondItem="hMR-0x-sow" secondAttribute="bottom" constant="15" id="KaW-Yf-YnK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="01H-jN-VHk" secondAttribute="trailing" constant="-5" id="Ub8-up-SOl"/>
                             <constraint firstItem="01H-jN-VHk" firstAttribute="leading" secondItem="qZn-Px-P4t" secondAttribute="leadingMargin" constant="-5" id="Y0x-wS-WuJ"/>
                             <constraint firstItem="01H-jN-VHk" firstAttribute="top" secondItem="hMR-0x-sow" secondAttribute="bottom" constant="15" id="a6d-iG-on9"/>
